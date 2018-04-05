@@ -1,0 +1,31 @@
+README - This file
+
+RadTransTheta.py  - @ by  Iván Martí-Vidal and Miguel Pérez-Torres
+  Output: Rff_2D.dat  
+
+  Script to compute the 2D radiative transfer of synchrotron radiation 
+  observed from a counterjet of 1 unit of intrinsic emission 
+  (in normalized units), taking into account free-free absorption from 
+  a torus and an external medium as described in Mattila, Perez-Torres et 
+  al. It also takes into account Doppler boosting/de-boosting of the counterjet, 
+  as well as light-travel time effects.
+
+
+betaThetaPlot-2D.py - @ by  Iván Martí-Vidal and Miguel Pérez-Torres
+  Input: Rff_2D.dat  (the output from RadTransTheta.py)
+  Output: BetaTheta_2D.png, .pdf
+
+  Script to generate the Theta-beta parameter space plot, which constrains the
+  allowed values of beta and theta for an expanding jet. 
+  It uses constraints from radio interferometric observations. Namely the 
+  apparent speed of the jet, as well as the jet-to-counterjet radio, R. 
+  The values in the code apply to the TDE Arp299B-AT1, and follows the
+  observations reported in Mattila, Pérez-Torres et al., but the code is of
+  general use and can thus be used for any other jet.   
+
+  If you use any of those scripts, or a modification of any of them, we'd
+  appreciate if you gave due credit by citing this work. 
+
+  Mattila & Pérez Torres et al. (2018)
+
+  
